@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('stage1') {
           steps {
-            sh 'scho "ok" > /tmp/git'
+            sh 'echo "ok" > /tmp/git'
           }
         }
 
